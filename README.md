@@ -42,3 +42,10 @@ regression, random forest, and gradient boosting on stratified CV.
   day one — `data/`, `notebooks/`, `src/`, `models/`, `reports/`,
   `README.md` — which gives the second project a copy-paste skeleton
   rather than a blank canvas.
+
+- **2026-05-27** -- Added a "results table" requirement to the project
+  contract: every project's `reports/` folder must include a one-page
+  results summary with (a) the headline metric on the test set, (b) at
+  least one baseline for comparison, and (c) a brief error-mode
+  paragraph (where the model fails and why). Without (c) the project
+  is a leaderboard chase; with (c) it's a portfolio piece.
